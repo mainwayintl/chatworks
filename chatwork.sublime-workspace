@@ -1,0 +1,973 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bgr",
+				"bgr-n	background-repeat: no-repeat;"
+			],
+			[
+				"bg",
+				"bgc:t	background-color:transparent"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"bgc",
+				"bgcp:nc	background-clip:no-clip"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tt",
+				"tt-c	text-transform: capitalize;"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"req",
+				"req1	require_once …"
+			],
+			[
+				"ng-i",
+				"ng-include	AngularJS"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass()"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"op",
+				"op	opacity"
+			],
+			[
+				"opac",
+				"opacity: "
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"scree",
+				"screen-sm"
+			],
+			[
+				"rg-",
+				"rg-image"
+			],
+			[
+				"css",
+				"css	.css() - multiple"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"n",
+				"nc:a	&:nth-child"
+			],
+			[
+				"screen-",
+				"screen-xs-max"
+			],
+			[
+				"visib",
+				"visibility: "
+			],
+			[
+				"if",
+				"ife	JS - if else"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sty",
+				"sticky"
+			],
+			[
+				"fix",
+				"fixedMenuTab"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"ha",
+				"hasClass	.hasClass()"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"ex",
+				"extend	@extend"
+			],
+			[
+				"bga",
+				"bga:f	background-attachment:fixed"
+			],
+			[
+				"ou",
+				"outerWidth	.outerWidth()"
+			],
+			[
+				"text-shadow",
+				"text-shadow: "
+			],
+			[
+				"screen",
+				"screen-xs-max"
+			],
+			[
+				"pre",
+				"prepend	.prepend()"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"ra",
+				"ratio"
+			],
+			[
+				"mix",
+				"mixin	@mixin"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"tal",
+				"ta:l	text-align:left"
+			],
+			[
+				"bgsz",
+				"background-size: "
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"incl",
+				"include	@include"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"inc",
+				"include	@include"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"an",
+				"animate	animate"
+			],
+			[
+				"ap",
+				"append	.append"
+			],
+			[
+				"c",
+				"click	click"
+			],
+			[
+				"te",
+				"text	.text"
+			],
+			[
+				"par",
+				"parents	.parents()"
+			],
+			[
+				"cp",
+				"cp-play"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"fi",
+				"find	.find()"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"sy-make",
+				"sy-make-sm-column"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"less",
+				"lesshat"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"bgpo",
+				"background-position"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"htm",
+				"html	.html"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"is",
+				"is	is"
+			],
+			[
+				"ma",
+				"maw	max-width"
+			],
+			[
+				"res",
+				"responsiveImgRatio"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"syl",
+				"style	Attr"
+			],
+			[
+				"me",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"sy",
+				"symphony"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"mi",
+				"miw	min-width"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"m",
+				"ms	@media screen"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"w",
+				"width	.width"
+			],
+			[
+				"ba",
+				"banner_wrapper"
+			],
+			[
+				"he",
+				"height	height"
+			],
+			[
+				"out",
+				"outPut"
+			],
+			[
+				"t",
+				"text	.text"
+			],
+			[
+				"hove",
+				"hoverIntent"
+			],
+			[
+				"zh",
+				"zh-tw"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"st",
+				"style	Attr"
+			],
+			[
+				"T",
+				"Tour"
+			],
+			[
+				"ta",
+				"target	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jingwang/git/chatworks"
+	],
+	"file_history":
+	[
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1460651052/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony2016/sass/helpers/_shenyun-utilities.scss",
+		"/Users/jingwang/Desktop/sftp-config.json",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/quiz.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/pages/_quiz.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee/utils/imageRatio.coffee",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/index-enhancer.min.js",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/bower.json",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/shenyun-main.v=20160218.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/content/_shared-blocks/_article-content-carousel.phtml",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1458156153/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/spirituality/news-and-resources-tw.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/spirituality/news-and-resources-cn.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/content/_shared-blocks/_article-content.phtml",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1457110814/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/assets/tt.html",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks/_sidebar-on-tour-photos.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks/_article-content.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks/_feature-two-col-item.phtml",
+		"/Users/jingwang/Desktop/reviews.coffee",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1456787616/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1456546339/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks/_top-banner.phtml",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1456526377/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks/_feature-content.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/css/vi/default.css",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/spirituality/challenges-we-face-ko.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/spirituality/challenges-we-face-ja.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/assets/index.html",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/min/news-reviews.v=20160122.min.js",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/concat/plugins.concat.js",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/theme/shenyun/js/coffee/script.coffee",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1454689785/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1454531403/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/ballet-classical-chinese-dance/index.php",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/_shared-blocks/_dance-article.phtml",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1454519015/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/learn/layouts/scripts/_shared-blocks/menu-left-dynamic.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/bower_components/magnific-popup/src/css/main.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/addons/_shenyun-icon.scss",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1453555814/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1453525656/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1453477601/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/chinese-music/index.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/shenyun2016new/config.rb",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/learn/views/scripts/index/index.phtml",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1451150738/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1451150720/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony/sass/components/_circle-player.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/min/music-player.min.js",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/css/nl/default.css",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/css/zh-tw/default.css",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/music-shen-yun/index.php",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/myths-and-legends/index.php",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts/spirituality/art-and-spirituality-ko.phtml",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/modules/news-reviews/_shenyun-reviews-old-version.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony/sass/pages/_symphony-about.scss",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/views/myths-and-legends.html",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/less/_sy-utilities.less",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1450284353/SVN",
+		"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/shenyun2016new/css/cs/default.css",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449517384/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449513303/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449262524/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449262103/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449256296/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449252425/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449195631/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449195520/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449195002/SVN",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/san-diego/venue.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/san-diego/shenyun-promo-venue.php",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449174767/SVN",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449162941/SVN",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun/scss/helpers/_shenyun-placeholder.scss",
+		"/var/folders/6j/dk13djpj4k94p023qbh1mr1c0000gn/T/sublime-svn-1449021414/SVN",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/facebook/index.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/bower_components/lightgallery/dist/js/lightgallery.js",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.footer.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss/settings/_shenyun-variables.scss",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/js/coffee/img-ratio.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.task.symphony.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.task.city.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.task.gulpfile.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.variables.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/css/shenyun-promo.css",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/css/shenyun-promo.css.map",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/bower_components/simpleImageGallery/demo/app/index.html",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/bower.json",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/bower_components/flexslider/demo/thumbnail-slider.html",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/holiday/config.rb",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulp/_gulpfile.task.holiday.coffee",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/config.rb",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/css/style.css",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/scss/settings/_shenyun-variables.scss",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_includes/_shenyun-index-main.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_includes/_index-right-logo-brand.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ut/shenyun-promo-videos.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/config.rb",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/scss/shenyun-promo.scss",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/scss/settings/_shenyun-scaffolding.scss",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/css/style.css.map",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/gulpfile.js",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/san-jose-center-for-the-performing-arts.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/composer.json",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_san-jose-center-for-the-performing-arts.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_shared-blocks/_find-shenyun.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/sacramento-community-center-theater-seating-chart.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/fresno/index.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/william-saroyan-theatre-seating-chart.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_william-saroyan-theatre-seating-chart.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shen-yun-venue.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shenyun-promo-venue.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_shenyun-promo-venue.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_sacramento-community-center-theater-seating-chart.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_sacramento-community-center-theater.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/the-war-memorial-opera-house.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_shared-blocks/_top-nav.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_shared-blocks/_html-shenyun-promo-videos.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shen-yun-video.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shen-yun-photos.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shenyun-promo-reviews.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shenyun-promo-videos.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_shared-blocks/_photos.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shenyun-promo-photos.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/shen-yun-reviews.php",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/_shared-blocks/_reviews.phtml",
+		"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/ca/_includes/_get-tickets.phtml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony2016/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/shenyun2016new",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/symphony2016/views",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony2016/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/artists/views",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/settings/mixins",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/bower_components/magnific-popup/dist",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/bower_components/bootstrap-sass/assets/stylesheets",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/controllers",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/promo/theme/shenyun/scss",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/plugins",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/plugins/lightgallery",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/plugins/lightgallery",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/plugins",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/settings",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/settings",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/reviews/views/scripts/_shared-blocks",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/plugins/magnific-popup",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/js/coffee",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/blog",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass/modules/news-reviews",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/learn",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/module/symphony/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/less",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/modules/shenyun2016new/views",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sy15/www.shenyun.com.v1.5/application/views/shenyun/scripts",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun/scss/pages",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/shenyun2016/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss/pages",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss/pages",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss/pages",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/la-v2/views",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss/layout",
+			"/Users/jingwang/Documents/proj/promo.shenyun.com/promo.shenyun.com/theme/default/scss",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/app",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/app",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass/pages",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/app/module/media",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/app/module/media",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/public/theme/feitian/sass",
+			"/Users/jingwang/Documents/proj/VideoPlatform/medialib.sydev.info/skycms/app",
+			"/Users/jingwang/Documents/proj/sydev1.5/www.shenyun.com/httpdocs/module/symphony/sass",
+			"/Users/jingwang/Documents/proj/sydev1.5/www.shenyun.com/application",
+			"/Users/jingwang/Documents/proj/sydev1.5/www.shenyun.com/httpdocs/theme/shenyun/less",
+			"/Users/jingwang/Documents/proj/sydev1.5/www.shenyun.com/application/modules",
+			"/Users/jingwang/Documents/proj/sydev1.5/www.shenyun.com/httpdocs/promo/modules/sass",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/httpdocs/framework/bootstrap/sass/bootstrap",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/application/modules/shenyun2015new/views/shenyun/scripts/_shared-blocks",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/httpdocs/module/shenyun2015new/sass",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/httpdocs/theme/shenyun/sass",
+			"/Users/jingwang/Documents/proj/sydev2/www.shenyun.com.v2/httpdocs/module/shenyun2015new/sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#syso-reviews-top-video-triailer",
+			"syso-about-upcoming-shows-header",
+			".ticket-page-logo",
+			".syso-city-banner-venue",
+			".ticket-page-logo",
+			"$NewYorkCity",
+			"#symphony-city-banner",
+			"response-svg-large",
+			"viewPath",
+			"syso-tab-wrapper",
+			"syso-tix-info-tab-header",
+			".syso-scroll-down-wrapper",
+			"#syso-main-container",
+			".symphony-top-tickets-button",
+			"response-svg-large-tagline",
+			"%shadowed",
+			"%response-svg",
+			"banner-logo",
+			".syso-index-slider-wrapper",
+			"#syso-header-wrapper",
+			"syso-index-slider-wrapper",
+			".banner-logo",
+			"%shadow",
+			"%response-svg",
+			"symphony-utilities",
+			"%centered",
+			"%response-svg",
+			"shenyun-placeholder",
+			".menu-trigger",
+			"%triangle-base",
+			".arrow-r8",
+			".svg-container",
+			"#video-cycle-pager",
+			"#cycle-pager",
+			"utilities",
+			"shenyun-placeholder",
+			"-webkit-filter",
+			"response-figure",
+			"%btn-base-primary",
+			"symphony-top-tickets-button",
+			"$symphony-brown",
+			"%outer-glow",
+			"../../../framework/ticketing/",
+			"response-svg-large-tagline",
+			"APPLICATION_PATH . ",
+			"/layouts/shenyun/scripts",
+			"review-sidebar",
+			"review-feature-content",
+			"review-page-title",
+			"reviews-main",
+			"review-feature-content",
+			"class=\"lazy\"",
+			"review-feature-item",
+			"#review-feature-content",
+			"review-feature-content",
+			"figure-wrapper",
+			"review-feature-content",
+			"review-feature-item",
+			"review-sidebar-most-popular",
+			"reviews-slideshow-share",
+			"$currentUrl",
+			"topBannerTextLength",
+			"$currentUrl",
+			"review-article-inner",
+			"myUrl",
+			"currentItem",
+			"renderedElement",
+			"reviews-slideshow-item-container",
+			"thumb",
+			"review-feature-item",
+			"#reviews-slideshow-item-container",
+			"review-feature-item",
+			"data-original",
+			"review-feature-item",
+			"reviews-slideshow-item-container",
+			"data-original",
+			"review-top-banner",
+			"feature-two-col-item",
+			".feature-two-col-item",
+			".reviews-feature-content-col",
+			"feature-two-col-item",
+			"reviews-feature-content-col",
+			"feature-two-col-item",
+			"div",
+			"www.youtube.com",
+			"$DanceCompanyVideo",
+			"%mobile-block",
+			"%submit-btn",
+			"sy-input-verificationcode",
+			"%submit-btn",
+			"blog-view-article-submit-btn",
+			".is-broken",
+			"review-popup-thumb",
+			"review-popup-author",
+			".review-popup-author",
+			"review-article-inner",
+			"hgroup",
+			"#review-article-wrapper",
+			"popup-article-content",
+			"video-row-h4",
+			"$injectFlowPlayerJSFlag",
+			"review-article-content",
+			"$mfp-image-padding-top",
+			".mfp-img",
+			"img.mfp-img",
+			".mfp-close",
+			"icon-video-play",
+			"mta-article-top-banner-slides-item",
+			".icon-video-play",
+			".falun-resources-wrapper",
+			".falun-expand-section-article",
+			"class=\"lazy\"",
+			"data-original",
+			"src",
+			"  $('.feature-two-col-item img').thumbRatio()",
+			"data-src",
+			".news-feature-content-col",
+			"class=\"is-loading\"",
+			"lazy",
+			"data-original",
+			"feature-two-col-item",
+			"swipebox wn-gallery-fancybox",
+			"is-loading",
+			"data-sub-html",
+			"reviews-slideshow-item-container",
+			"imgLoad",
+			"#review-top-banner",
+			".feature-two-col-item"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MarGo-output":
+	{
+		"height": 43.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 367.0
+	},
+	"pinned_build_system": "",
+	"project": "chatwork.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"application/modules/symphony2016/views/scripts/index/index.phtml"
+			],
+			[
+				"pro",
+				"theme/default/js/coffee/promo.coffee"
+			],
+			[
+				"confi",
+				"www.shenyun.com/httpdocs/config.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 455.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
