@@ -7,9 +7,10 @@
         var toastr;
 
         beforeEach(module('ngExercise'));
-        beforeEach(inject(function(_$controller_, _$timeout_, _webDevTec_, _toastr_) {
+        beforeEach(inject(function(_$controller_, _$timeout_, _webDevTec_, _toastr_, _$log_) {
             spyOn(_webDevTec_, 'getTec').and.returnValue([{}, {}, {}, {}, {}]);
             spyOn(_toastr_, 'info').and.callThrough();
+            spyOn(_$log_, 'debug').and.callThrough();
 
             vm = _$controller_('MainController');
             $timeout = _$timeout_;

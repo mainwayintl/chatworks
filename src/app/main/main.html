@@ -8,7 +8,7 @@
                     <span>{{message.userMessage}}</span>
                 </li>
             </ul>
-            <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" ng-keyup="$event.keyCode == 13 && main.sendMessage()"/>
+            <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" my-enter="main.sendMessage()" />
             <button type="button" class="btn btn-primary" ng-click="main.sendMessage()" >Send</button>
         </div>
     </div>
