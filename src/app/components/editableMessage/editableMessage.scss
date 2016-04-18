@@ -1,0 +1,20 @@
+.editable-message {
+  display:block;
+
+  button {
+    display:none;
+  }
+
+  &.edit {
+   p{
+      border: solid 1px #ccc;
+      padding: 0.25em 0.5em;
+      margin-bottom: 0.25em;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+    button {
+      display:inline;
+    }
+    padding-bottom: 0.5em;
+  }
+}

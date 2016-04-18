@@ -1,15 +1,22 @@
 <div class="container">
-    
-
-    <div class="row">
-        <div class="col-sm-6 col-md-4">
-            <ul>
-                <li ng-repeat="message in main.messages">
-                    <span>{{message.userMessage}}</span>
-                </li>
-            </ul>
-            <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" my-enter="main.sendMessage()" />
-            <button type="button" class="btn btn-primary" ng-click="main.sendMessage()" >Send</button>
-        </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <ul class="message-list">
+        <li ng-repeat="message in main.messages">
+          <editable-message message="message.userMessage"></editable-message>
+        </li>
+      </ul>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" my-enter="main.sendMessage()" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <button type="button" class="btn btn-primary pull-right" ng-click="main.sendMessage()" >Send</button>
+    </div>
+  </div>
 </div>
+
