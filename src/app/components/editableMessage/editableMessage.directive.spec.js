@@ -17,7 +17,7 @@
     beforeEach(inject(function($compile, $rootScope, _$log_) {
       $log = _$log_;
 
-      el = angular.element('<editable-message message="\'' + message + '\']"></editable-message>');
+      el = angular.element('<editable-message message="\'' + message + '\'"></editable-message>');
 
       $compile(el)($rootScope.$new());
       $rootScope.$digest();
