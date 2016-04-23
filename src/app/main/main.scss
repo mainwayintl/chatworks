@@ -1,7 +1,13 @@
 .message-list{
-
+  margin-top: 2em;
   margin: 1em 0 0 0;
-  padding: 0;
+  padding: 1em;
   list-style: none;
+  overflow: auto;
+  height: 20em;
+  background: #fcfcf0;
+}
 
+.input-area{
+  padding-top: 1em;
 }

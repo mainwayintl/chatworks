@@ -1,21 +1,32 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-12 col-md-6 col-md-offset-3">
+      <h5>My messages</h5>
       <ul class="message-list">
         <li ng-repeat="message in main.messages">
-          <editable-message message="message.userMessage"></editable-message>
+          <editable-message ng-model="message.userMessage"></editable-message>
         </li>
       </ul>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6 col-md-4">
-      <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" my-enter="main.sendMessage()" />
+    <div class="col-sm-12 col-md-6 col-md-offset-3 input-area">
+      <div class="row">
+        <div class="col-sm-9">
+          <input placeholder="myTest" type="text" class="form-control" ng-model="main.userMessage" my-enter="main.sendMessage()" />
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary" ng-click="main.sendMessage()" >Send</button>
+        </div>
+      </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6 col-md-4">
-      <button type="button" class="btn btn-primary pull-right" ng-click="main.sendMessage()" >Send</button>
+    <div class="col-sm-12 col-md-6 col-md-offset-3">
+      <h5>Original messages</h5>
+      <ul>
+        <li ng-repeat="m in main.messages">{{m.userMessage}}</li>
+      </ul>
     </div>
   </div>
 </div>

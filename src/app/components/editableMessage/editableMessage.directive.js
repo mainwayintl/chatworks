@@ -8,58 +8,84 @@
   /** @ngInject */
   function editableMessage($log) {
     var directive = {
+      require: 'ngModel',
       restrict: 'E',
-      scope: {
-        message: '=',
-      },
-      template: '<p>{{vm.message}}</p>' +
-      '<button type="button" class="btn btn-default btn-xs">Cancel</button>' +
-      '<button type="button" class="btn btn-default btn-xs">Save</button>',
-      link: linkFunc,
-      controller: EditableMessageController,
-      controllerAs: 'vm',
-      bindToController: true
+      scope: {},
+      template: '<p>{{message}}</p>' +
+      '<button type="button" class="btn btn-default btn-xs" ng-click="cancel($event)">Cancel</button>' +
+      '<button type="button" class="btn btn-default btn-xs" ng-click="save($event)">Save</button>',
+      link: linkFunc
     };
 
     return directive;
 
-    function linkFunc(scope, el, attr, vm) {
+    function linkFunc(scope, el, attr, ngModelCtrl) {
 
       scope.mode = 'read';
+      scope.newMessage = '';
+
+      var textArea = el.find('p');
 
       el.addClass('editable-message');
 
-      function toggleMode(){
+      textArea.bind('click', toggleMode);
+
+      function toggleMode(event){
+
+        event.preventDefault();
+
         if(scope.mode === 'read'){
+          // Editing mode
           scope.mode = 'edit';
           el.addClass('edit');
-          el.find('p').attr('contentEditable', 'true');
-          el.unbind('click');
+          textArea.attr('contentEditable', 'true');
+          textArea.unbind('click');
+          textArea.bind('keydown', keyDown);
         }else{
+          // Read only mode
           scope.mode = 'read';
           el.removeClass('edit');
-          el.find('p').removeAttribute('contentEditable');
-          el.bind('click', toggleMode);
+          textArea.removeAttr('contentEditable');
+          textArea.bind('click', toggleMode);
+          textArea.unbind('keydown');
         }
+
         $log.info('Current mode: ' + scope.mode);
       };
 
-      el.bind('click', toggleMode);
-    }
+      function keyDown(event){
+        var esc = event.which == 27;
 
-    /** @ngInject */
-    function EditableMessageController($log) {
-      var vm = this;
-      vm.clicked = clicked;
+        if (esc) {
+          $log.info("esc");
+          cancel(event);
+        }
+      };
 
-      activate();
+      ngModelCtrl.$formatters.push(function(modelValue) {
+        return {
+          message: modelValue
+        };
+      });
 
-      function activate() {
-        $log.info('Activated editable message view');
+      ngModelCtrl.$render = function() {
+        scope.save    = save;
+        scope.cancel  = cancel;
+        scope.message = ngModelCtrl.$viewValue.message;
+      };
+
+      function save(event){
+        ngModelCtrl.$setViewValue(textArea.text());
+        toggleMode(event);
+        $log.info('Save');
       }
 
-      function clicked($event){
+      function cancel(event){
+        textArea.text(ngModelCtrl.$viewValue.message);
+        toggleMode(event);
+        $log.info('Cancel');
       }
+
     }
 
   }

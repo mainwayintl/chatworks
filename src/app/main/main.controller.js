@@ -30,7 +30,6 @@
         vm.showToastr = showToastr;
         vm.sendMessage = sendMessage;
 
-
         activate();
 
         function activate() {
@@ -43,16 +42,15 @@
         function showToastr() {
             toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
             vm.classAnimation = '';
-
         }
 
         function sendMessage() {
             vm.messages.push({
-                'userMessage': vm.userMessage
+              'sentDateTime' : formatDate(new Date())
+              'userMessage'  : vm.userMessage
             });
 
-            $log.debug('sendMessage');
-            $log.debug(vm.userMessage);
+            $log.debug('sendMessage: ' + vm.userMessage);
         }
 
         function getWebDevTec() {
@@ -62,5 +60,18 @@
                 awesomeThing.rank = Math.random();
             });
         }
+
+        // Copied from here: http://stackoverflow.com/questions/25275696/javascript-format-date-time
+        function formatDate(date) {
+          var hours   = date.getHours();
+          var minutes = date.getMinutes();
+          var ampm    = hours >= 12 ? 'pm' : 'am';
+          hours   = hours % 12;
+          hours   = hours ? hours : 12; // the hour '0' should be '12'
+          minutes = minutes < 10 ? '0'+minutes : minutes;
+          var strTime = hours + ':' + minutes + ' ' + ampm;
+          return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
+        }
+
     }
 })();
