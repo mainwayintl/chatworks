@@ -4,7 +4,10 @@
       <h5>My messages</h5>
       <ul class="message-list">
         <li ng-repeat="message in main.messages">
-          <editable-message ng-model="message.userMessage"></editable-message>
+          <div class="row sent-date-time"><div class="col-sm-12">{{message.sentDateTime}}</div></div>
+          <div class="row user-message"><div class="col-sm-12">
+            <editable-message ng-model="message.userMessage"></editable-message>
+          </div></div>
         </li>
       </ul>
     </div>

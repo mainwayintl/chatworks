@@ -45,8 +45,9 @@
         }
 
         function sendMessage() {
+            var sentDateTime = formatDate(new Date());
             vm.messages.push({
-              'sentDateTime' : formatDate(new Date())
+              'sentDateTime' : sentDateTime,
               'userMessage'  : vm.userMessage
             });
 

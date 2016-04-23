@@ -51,7 +51,7 @@
         }
 
         $log.info('Current mode: ' + scope.mode);
-      };
+      }
 
       function keyDown(event){
         var esc = event.which == 27;
@@ -60,7 +60,7 @@
           $log.info("esc");
           cancel(event);
         }
-      };
+      }
 
       ngModelCtrl.$formatters.push(function(modelValue) {
         return {
