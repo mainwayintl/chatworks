@@ -19,46 +19,32 @@
         });
 
     /** @ngInject */
-    function MainController($timeout, webDevTec, toastr, $log) {
+    function MainController($timeout, apiMessage, $log) {
         var vm = this;
-
-        vm.awesomeThings = [];
         vm.messages = [];
-        vm.userMessage = [];
-        vm.classAnimation = '';
-        vm.creationDate = 1460473480976;
-        vm.showToastr = showToastr;
+        vm.userMessage = '';
         vm.sendMessage = sendMessage;
 
         activate();
 
         function activate() {
-            getWebDevTec();
-            $timeout(function() {
-                vm.classAnimation = 'rubberBand';
-            }, 4000);
-        }
-
-        function showToastr() {
-            toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
-            vm.classAnimation = '';
+            getAllMessages();
         }
 
         function sendMessage() {
             var sentDateTime = formatDate(new Date());
-            vm.messages.push({
+            var newMessage = {
               'sentDateTime' : sentDateTime,
               'userMessage'  : vm.userMessage
-            });
-
+            };
+            vm.messages.push(newMessage);
+            apiMessage.add(newMessage);
             $log.debug('sendMessage: ' + vm.userMessage);
         }
 
-        function getWebDevTec() {
-            vm.awesomeThings = webDevTec.getTec();
-
-            angular.forEach(vm.awesomeThings, function(awesomeThing) {
-                awesomeThing.rank = Math.random();
+        function getAllMessages() {
+            apiMessage.getAll().then(function(data){
+              vm.messages = data;
             });
         }
 
