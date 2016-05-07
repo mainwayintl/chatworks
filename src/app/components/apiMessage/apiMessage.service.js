@@ -3,10 +3,10 @@
 
   angular
     .module('ngExercise')
-    .factory('apiMessage', githubContributor);
+    .factory('apiMessage', apiMessage);
 
   /** @ngInject */
-  function githubContributor($log, $http) {
+  function apiMessage($log, $http) {
     var apiHost = 'http://localhost:3000/api';
 
     var service = {
