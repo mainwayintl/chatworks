@@ -2,7 +2,9 @@
   "name": "chatworks",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^6.2.0"
   },
   "scripts": {
     "test": "gulp test"
