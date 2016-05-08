@@ -6,11 +6,9 @@
     .factory('apiMessage', apiMessage);
 
   /** @ngInject */
-  function apiMessage($log, $http) {
-    var apiHost = 'http://localhost:3000/api';
+  function apiMessage($log, $http, appSettings) {
 
     var service = {
-      apiHost: apiHost,
       getAll: getAll,
       add: add
     };
@@ -22,7 +20,7 @@
         limit = 30;
       }
 
-      return $http.get(apiHost + '/message?per_page=' + limit)
+      return $http.get(appSettings.apiHost + '/api/message?per_page=' + limit)
         .then(getMessagesComplete)
         .catch(getMessagesFailed);
 
@@ -36,8 +34,8 @@
     }
 
     function add(newMessage){
-      var data = JSON.stringify(newMessage);
-      $http.post(apiHost + '/message', data);
+      var data = angular.toJson(newMessage);
+      $http.post(appSettings.apiHost + '/api/message', data);
     }
   }
 })();

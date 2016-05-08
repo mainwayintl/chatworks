@@ -17,12 +17,6 @@
       expect(apiMessage).not.toEqual(null);
     });
 
-    describe('apiHost variable', function() {
-      it('should exist', function() {
-        expect(apiMessage.apiHost).not.toEqual(null);
-      });
-    });
-
     describe('getAll function', function() {
       it('should exist', function() {
         expect(apiMessage.getAll).not.toEqual(null);
