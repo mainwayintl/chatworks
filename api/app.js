@@ -1,7 +1,9 @@
-var express = require('express');
-var bodyParser = require('body-parser')
+var express     = require('express');
+var bodyParser  = require('body-parser')
+var expressJwt  = require('express-jwt');
+var appSettings = require('./config/appsettings');
 
-var app = express();
+var app    = express();
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -9,36 +11,16 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-var messages = [
-  {
-    sentDateTime: 'Beginning of time',
-    userMessage: 'Welcome.'
-  }
-];
+// We are going to protect /api routes with JWT
+app.use('/api', expressJwt({secret: appSettings.secret}));
 
-app.get('/message', function (req, res) {
-  res.send(messages);
-  console.info('get request');
-});
+var apiMessage = require('./message/api');
+app.use('/api/message', apiMessage);
 
-app.post('/message', function (req, res) {
-  console.info('req.body:' + req.body);
-  var newMessage = req.body;
-  messages.push(newMessage);
-  res.send({index: messages.length - 1});
-  console.info('post request');
-});
+var apiAuthentication = require('./account/api');
+app.use('/account', apiAuthentication);
 
-app.delete('/message', function (req, res) {
-  res.send('removing ...');
-  console.info('remove request');
-});
-
-app.put('/message', function (req, res) {
-  res.send('updating ...');
-  console.info('update request');
-});
-
-app.listen(8080, function () {
-  console.info('Chatworks API listening on port 8080!');
+var port = process.env.PORT || 8080;
+app.listen(port, function () {
+  console.info('Chatworks API listening on port ' + port + '!');
 });
