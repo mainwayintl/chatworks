@@ -34,10 +34,10 @@ function browserSyncInit(baseDir, browser) {
    * For more details and option, https://github.com/chimurai/http-proxy-middleware/blob/v0.9.0/README.md
    */
   server.middleware = proxyMiddleware(
-    '/api',
+    '/local-dev',
     {
       pathRewrite: {
-        '^/api': ''
+        '^/local-dev': ''
       },
       target: 'http://localhost:8080',
       changeOrigin: true
