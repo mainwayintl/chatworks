@@ -19,16 +19,24 @@
         });
 
     /** @ngInject */
-    function MainController($timeout, apiMessage, $log) {
+    function MainController($log, $timeout, apiMessage, apiUserProfile) {
         var vm = this;
-        vm.messages = [];
-        vm.userMessage = '';
-        vm.sendMessage = sendMessage;
+        vm.messages        = [];
+        vm.userMessage     = '';
+        vm.isAuthenticated = false;
+        vm.userProfile     = '';
+        vm.sendMessage     = sendMessage;
+        vm.login           = login;
+        vm.logout          = logout;
 
         activate();
 
         function activate() {
-            getAllMessages();
+            if(apiUserProfile.isAuthenticated()){
+              getAllMessages();
+              vm.isAuthenticated = true;
+              vm.userProfile = getUserProfileStr();
+            }
         }
 
         function sendMessage() {
@@ -60,5 +68,23 @@
           return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
         }
 
+        function login(){
+          apiUserProfile.authenticate(vm.username, vm.password).then(function(success){
+            vm.isAuthenticated = success;
+            vm.userProfile = getUserProfileStr();
+            getAllMessages();
+          });
+        }
+
+        function logout(){
+          apiUserProfile.logout();
+          vm.isAuthenticated = false;
+          vm.messages = [];
+          vm.userProfile = '';
+        }
+
+        function getUserProfileStr(){
+          return apiUserProfile.userAccount();
+        }
     }
 })();
